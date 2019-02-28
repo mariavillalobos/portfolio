@@ -1,0 +1,244 @@
+
+.container1{
+ display:flex;
+ align-content:space-around;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.container{
+	display: flex;
+	border: double black 5px;
+	height:95%;
+	padding:2px;
+	overflow: hidden;
+}
+
+.caja{
+	border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+
+.imagen{
+    max-width: 80%;
+    max-height: 100%;
+    min-width: 150px;
+}
+
+.caja1{
+	background-color:white;
+}
+.caja2{
+	background-color:white;
+}
+.caja3{
+	background-color:white;
+}
+.caja4{
+	background-color:white;
+}
+.caja5{
+	background-color:white;
+}
+.caja6{
+	background-color:white;
+}
+.caja7{
+	background-color:white;
+}
+.caja8{
+	background-color:white;
+}
+.caja9{
+	background-color:white;
+}
+
+.caja1 {
+  position: relative;
+    border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+
+.imagen {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: dimgray;
+}
+
+.caja1:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+.caja2 {
+  position: relative;
+    border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+.caja2:hover .overlay {
+  opacity: 0.8;
+}
+
+
+
+.caja3 {
+  position: relative;
+    border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+.caja3:hover .overlay {
+  opacity: 0.8;
+}
+
+
+.caja4 {
+  position: relative;
+    border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+.caja4:hover .overlay {
+  opacity: 0.8;
+}
+
+
+
+.caja5 {
+  position: relative;
+    border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+
+.caja5:hover .overlay {
+  opacity: 0.8;
+}
+
+
+.caja6 {
+  position: relative;
+    border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+
+.caja6:hover .overlay {
+  opacity: 0.8;
+}
+
+
+.caja7 {
+  position: relative;
+    border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+
+.caja7:hover .overlay {
+  opacity: 0.8;
+}
+
+
+.caja8 {
+  position: relative;
+    border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+
+.caja8:hover .overlay {
+  opacity: 0.8;
+}
+
+
+.caja9 {
+  position: relative;
+    border: solid black 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: white;
+	width: 30%;
+	height: 30%;
+}
+
+.caja9:hover .overlay {
+  opacity: 0.8;
+}
